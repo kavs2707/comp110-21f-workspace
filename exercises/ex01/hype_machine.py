@@ -1,4 +1,4 @@
-"""Kaviya David's Hype Machine"""
+"""Kaviya David's Hype Machine!"""
 
 __author__ = "730316359"
 
