@@ -10,7 +10,7 @@ repeated_word: str = ""
 
 
 if x <= 0:
-    print("No beat... ")
+    print("No beat...")
 else:
     i: int = 0
     while i < x - 1: 
