@@ -26,4 +26,4 @@ else:
     else:
         print("Your day might not start off great, but keep your head up!")
     
-print("Now, go seize the day!")
+print("Now, go spread positive vibes!")
