@@ -9,7 +9,9 @@ word: str = input("Enter a word: ")
 i: int = 0
 
 while i < len(word): 
-    letters: str = (what_letter[i])
-    if word == letters:
-       print(word == letters) 
+    individual_letters: str = (word[i])
+    if individual_letters == what_letter:
+        print(individual_letters == what_letter)
+    else: 
+        print("0")
     i = i + 1
