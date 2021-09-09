@@ -3,15 +3,17 @@
 __author__ = "730316359"
 
 
+
 what_letter: str = input("What letter do you want to search for?: ")
 word: str = input("Enter a word: ")
-
+count: str = ""
 i: int = 0
 
+if what_letter != word[i]:
+    print("0")
+
 while i < len(word): 
-    individual_letters: str = (word[i])
-    if individual_letters == what_letter:
-        print(individual_letters == what_letter)
-    else: 
-        print("0")
-    i = i + 1
+    if what_letter == word[i]:
+        i = i + 1
+        count = i
+
