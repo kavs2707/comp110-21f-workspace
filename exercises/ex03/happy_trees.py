@@ -7,19 +7,10 @@ TREE: str = '\U0001F332'
 
 number: str = input("Depth: ")
 depth: int = int(number)
-trees = TREE
+trees = ""
 
-
-if depth <= 0:
-    print("")
-else:
-    i: int = 0
-    while i < depth: 
-        trees = TREE * depth
-        print(trees)
-        j: int = 0
-        while j < depth:
-            trees = trees + TREE * depth
-            print(trees)
-            j += 1
-    i += 1 
+i: int = 1
+while i <= depth: 
+    trees = TREE * i
+    print(trees)
+    i += 1
