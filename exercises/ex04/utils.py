@@ -4,7 +4,7 @@ __author__ = "730316359"
 
 
 def all(x: list[int], y: int) -> bool:
-    """This function indicates whether or not all the ints in the list are the same as the given int. """
+    """This function indicates whether or not all the ints in the list are the same as the given int."""
     if len(x) == 0:
         return False
     i = 0
@@ -16,7 +16,7 @@ def all(x: list[int], y: int) -> bool:
 
 
 def is_equal(x: list[int], y: list[int]) -> bool:
-    """This function indicates whether or not every element at every index is equal in both lists. """
+    """This function indicates whether or not every element at every index is equal in both lists."""
     if len(x) != len(y):
         return False
     i = 0
@@ -28,7 +28,7 @@ def is_equal(x: list[int], y: list[int]) -> bool:
 
 
 def max(input: list[int]) -> int:
-    """This function returns the largest integer in the list. """
+    """This function returns the largest integer in the list."""
     if len(input) == 0:
         raise ValueError("max() arg is an empty List")
     i = 0
